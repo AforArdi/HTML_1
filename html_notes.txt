@@ -1,0 +1,104 @@
+15/10/2025
+HTML Beginner
+
+1. How web works?
+- client-sever model
+- http request and response
+- web design fundamental - html, css, js
+
+2. What is html? Why html?
+- building block
+- making web
+
+3. History of html
+4. Advantage of html
+- platform independent
+
+5. Environment Setup
+- vs code extensions: live server, live preview, prettier code formatter, html and tag labels
+- browser
+- Git & GitHub (version control)
+
+6. Basic structure of html
+- head (title, metatag, style, script connection), body (present something on webpage)
+
+7. Basic tags, styling, debugging
+- tag? types of tag ( pair / container tag, empty / single tag)
+- attribute
+- content, element (tag + content)
+- debugging (html validator)
+- <!--comment--> (planning process)
+
+8. Headings, Paragraphs, Line breaks, Horizontal rule (<hr/>)
+
+9. Semantic html vs non-semantic html
+- Semantic tag (header, main, footer, form table)
+- non-semantic (div, span)
+
+10. text formatting tag
+<strong> bold
+<em> italic
+<mark> highlight
+<del> strike
+<sup>
+<sub>
+<u>
+
+<article></article> for an individual (self-contained content)
+
+11. Entity (symbl.cc/en/unicode-table)
+&copy; &hearts;
+ 
+11. list
+<ol>, new attributes to me--> start, reversed
+<ul>
+<dl> definition list
+<dt> definition title
+<dd> description tag
+
+nested list (list inside list)
+
+
+12. link
+- absolute link (contains https, domain name)
+- anchor(a) tag, attribute: href, target="_blank", title
+
+relative link
+- <nav> bar (use <ul> inside navbar, suggested)
+<a href="./pages/index.html">Home</a> (inside a folder called page, index.html file)
+target="_self", title="something" (when we hoverover on the navbar)
+
+for phone:
+<a href="tel:017...">Cell</a>
+<a href="mailto:my@gmail.com">Email</a>
+
+how to move in different sections in one page:
+- add id attribute in every section
+now the navbar gonna look like this
+<a href="#id_name">Home</a>
+
+13. Image
+<img src="" alt=""/>
+<figure></figure> & <figcaption></figcaption> for image and caption
+
+14. table (css)
+basic
+<table>
+<thead>
+<tbody>
+<tr>  table row)
+<td> (table data)
+<th> (table heading)
+
+15. form
+<form>
+<label for="connected where"> (new tag for me)
+<input> (single tag) attributes: id, name, required
+<textarea> attributes: name, id, cols, rows
+<button> attributes: type: submit, reset
+
+16. deploy
+
+--------------------------------------------
+
+attributes (always inside opening tag) adds more customizations of a tag

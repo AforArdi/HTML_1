@@ -6,10 +6,121 @@
     <title>Document</title>
 </head>
 <body>
-    <!--Section: Intro-->
-    <h2>Mohammad Ardi</h2>
-    <p>Learning to be a web developer</p>
-    <hr/>
-    <!--Skills-->
+    <header>
+        <nav>
+            <a href="#skills" style="margin-right: 80px;">Skills</a>
+            <a href="#projects">My Projects</a><br>
+            <a href="#educations" style="margin-right:25px;">My Education</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+        <!--intro-->
+        <section>
+            <img src="./images/myself2.png" alt="Mohammad Ardi" width="50" style="border-radius: 50%; margin:0%; padding: 0%;">
+            <h1>Mohammad Ardi</h1><br>
+            <a href="https://www.facebook.com/RAB06KHULNA">
+                <img src="./images/fb_logo.png" alt="facebook logo" width="50" style="margin-right: 20px;">
+            </a>
+            <a href="https://www.github.com/AforArdi">
+                <img src="./images/github_logo2.png" alt="github logo" width="50" style="margin-right: 20px;">
+            </a>
+            <a href="https://www.linkedin.com/in/mohammad-ardi">
+                <img src="./images/linkedin_logo.png" alt="linkedin logo" width="50" style="margin-right: 20px;">
+            </a>
+            <p><mark>Learning</mark> to be a <mark>Full Stack</mark> Web Developer</p>
+            <p><strong>Living in:</strong> Khulna</p>
+            <p>I'm interested in tech field & every parts of it</p>
+            <p>My carrer Goal: To Become Successfull in Web Dev. InshAllah</p>
+        </section>
+    </header>
+        <!--skills-->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li><strong>C</strong></li>
+                <li><strong>Python</strong></li>
+                <li><strong>SQL</strong></li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <!--projects-->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <article>
+                <h3>README.md File Project</h3>
+                <figure>
+                    <img src="./images/repopics/repopic_1.png" alt="Repository Pic 1" width="90">
+                    <img src="./images/repopics/repopic_2.png" alt="Repository Pic 2" width="90">
+                    <img src="./images/repopics/repopic_3.png" alt="Repository Pic 3" width="90">
+                    <figcaption>Here I practiced all the stuff about README.md file in this 
+                        <a href="https://www.github.com/AforArdi/mohammad-ardi">Repository</a>
+                    </figcaption>
+                </figure>
+            </article>
+            <article>
+                <h3>Github Command Project</h3>
+                <figure>
+                    <img src="./images/repopics/repopic_4.png" alt="Repository Pic 4" width="90">
+                    <img src="./images/repopics/repopic_5.png" alt="Repository Pic 5" width="90">
+                    <img src="./images/repopics/repopic_6.png" alt="Repository Pic 6" width="90">
+                    <figcaption>Here I practiced all the commands of git and github in this 
+                        <a href="https://www.github.com/AforArdi/mohammad-ardi">Repository</a>
+                    </figcaption>
+                </figure>
+            </article>
+        </section>
+
+        <!--educations-->
+        <section id="educations">
+            <h3>My Education Background</h3>
+            <table border="1" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Passing Year</th>
+                        <th>GPA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>JSC</td>
+                        <td>Khulna Public College</td>
+                        <td>2018</td>
+                        <td>5.00</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Khulna Public College</td>
+                        <td>2021</td>
+                        <td>5.00</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Khulna Govt. BL College</td>
+                        <td>2024</td>
+                        <td>4.92</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!--contact-->
+        <section>
+            <h3>Contact Me</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" cols="100" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
 </body>
 </html>
